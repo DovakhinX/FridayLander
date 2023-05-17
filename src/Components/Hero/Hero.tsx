@@ -10,10 +10,10 @@ function Hero() {
         <div className="heroContain">
             <div className='heroText'>
                 <div className="heroHeader">
-                    <p className='heroText1'> Empowering Seamless Crypto Payments  </p>
+                    <p className='heroText1'> Empowering  Crypto Seamlessly  </p>
                 </div>
                 <div className="heroSubHeader">
-                    <p className='heroText2'>Friday the all-in-one crypto wallet app that simplifies your digital asset management. Securely store, send, and receive cryptocurrencies with ease. Join Friday and unlock the potential of the crypto world confidently. </p>
+                    <p className='heroText2'>Friday the all-in-one crypto wallet that simplifies your digital asset management. Securely store, send, and receive cryptocurrencies with ease. Join Friday and unlock the potential of the crypto world confidently. </p>
                 </div>
             </div>
             <div className='heroDisplay'>

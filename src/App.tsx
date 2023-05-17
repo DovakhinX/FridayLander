@@ -10,11 +10,11 @@ function App() {
   return (
     <div className='boss'>
       <div className='navSection'>
-        <Navbar/>
+        <Navbar />
       </div>
-<div className='heroSection'>
-  <Hero/>
-</div>
+      <div className='heroSection'>
+        <Hero />
+      </div>
 
     </div>
   )
