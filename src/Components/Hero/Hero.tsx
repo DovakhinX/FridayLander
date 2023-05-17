@@ -1,16 +1,9 @@
 
-import mock1 from "../../assets/mock1.png";
 import mock2 from "../../assets/mock2.png";
 import mock4 from "../../assets/mock4.png";
-import mock5 from "../../assets/mock5.png";
-
-
-
-
 import './Hero.css'
+
 function Hero() {
-
-
 
 
     return (
