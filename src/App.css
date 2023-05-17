@@ -1,0 +1,44 @@
+.boss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  animation: gradientAnimation 7s linear infinite;
+  background-size: 200% 200%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  30% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.boss::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: linear-gradient(-45deg, rgb(74, 189, 176), transparent);
+  /* Set the diagonal gradient for the pseudo-element */
+  z-index: -1; /* Position the pseudo-element behind the boss div */
+  animation: gradientAnimation 3s linear infinite;
+  background-size: 200% 200%;
+  transform: skewY(-34deg);
+  transform-origin: top left;
+}
