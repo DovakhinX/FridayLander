@@ -2,9 +2,7 @@
 import mock2 from "../../assets/mock2.png";
 import mock4 from "../../assets/mock4.png";
 import './Hero.css'
-
 function Hero() {
-
 
     return (
         <div className="heroContain">
@@ -17,14 +15,12 @@ function Hero() {
                 </div>
             </div>
             <div className='heroDisplay'>
-
                 <div className="bannercontainer">
                     <img src={mock2} alt="banner" className='banner' />
                 </div>
                 <div className="bannercontainer">
                     <img src={mock4} alt="banner2" className='banner' />
                 </div>
-
             </div>
         </div>
     )
